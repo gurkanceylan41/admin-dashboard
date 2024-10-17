@@ -1,0 +1,290 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S23",
+      "category": "Electronics",
+      "price": 999.99,
+      "stock": 30,
+      "description": "6.6-inch display, Snapdragon 8 Gen 2, triple 50MP camera system.",
+      "image_url": "https://picsum.photos/seed/2/500/500",
+      "rating": 4.6,
+      "reviews_count": 85,
+      "brand": "Samsung"
+    },
+    {
+      "id": "3",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Accessories",
+      "price": 349.99,
+      "stock": 40,
+      "description": "Industry-leading noise cancellation, 30 hours battery life.",
+      "image_url": "https://picsum.photos/seed/3/500/500",
+      "rating": 4.9,
+      "reviews_count": 120,
+      "brand": "Sony"
+    },
+    {
+      "id": "4",
+      "name": "Adidas Air Max 270",
+      "category": "Shoes",
+      "price": 249.99,
+      "stock": 53,
+      "description": "Breathable mesh upper, Max Air unit for responsive cushioning.",
+      "image_url": "https://picsum.photos/seed/4/500/500",
+      "rating": 4.7,
+      "reviews_count": 210,
+      "brand": "Adidas"
+    },
+    {
+      "id": "5",
+      "name": "Adidas Ultraboost 22",
+      "category": "Shoes",
+      "price": 180,
+      "stock": 35,
+      "description": "Primeknit upper with Boost midsole for maximum energy return.",
+      "image_url": "https://picsum.photos/seed/5/500/500",
+      "rating": 4.8,
+      "reviews_count": 95,
+      "brand": "Adidas"
+    },
+    {
+      "id": "309a",
+      "name": "Macbook",
+      "brand": "Apple",
+      "category": "Teknoloji",
+      "price": "179999",
+      "stock": "4",
+      "description": "Macbook M1 16GB RAM",
+      "image_url": "https://picsum.photos/seed/16/500/500",
+      "rating": 0,
+      "reviews_count": 0
+    },
+    {
+      "id": "283f",
+      "name": "1",
+      "brand": "1",
+      "category": "1",
+      "price": "1",
+      "stock": "1",
+      "description": "1",
+      "image_url": "https://picsum.photos/seed/28/500/500",
+      "rating": 0,
+      "reviews_count": 0
+    }
+  ],
+  "users": [
+    {
+      "id": "2",
+      "name": "Elif Kaya",
+      "email": "elif.kaya@example.com",
+      "password": "hashed_password_2",
+      "address": {
+        "street": "İstiklal Mah. 123. Sok. No: 45",
+        "city": "Ankara",
+        "postal_code": "06000",
+        "country": "Turkey"
+      },
+      "phone": "+90 532 654 3210",
+      "orders": [
+        {
+          "order_id": 1003,
+          "product_id": 3,
+          "quantity": 1,
+          "total_price": 349.99,
+          "order_date": "2024-07-22"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mehmet Demir",
+      "email": "mehmet.demir@example.com",
+      "password": "hashed_password_3",
+      "address": {
+        "street": "Mimar Sinan Bulv. No: 78",
+        "city": "Izmir",
+        "postal_code": "35000",
+        "country": "Turkey"
+      },
+      "phone": "+90 542 987 6543",
+      "orders": []
+    },
+    {
+      "id": "4",
+      "name": "Zeynep Aydın",
+      "email": "zeynep.aydin@example.com",
+      "password": "hashed_password_4",
+      "address": {
+        "street": "Bağdat Cad. No: 12",
+        "city": "Istanbul",
+        "postal_code": "34700",
+        "country": "Turkey"
+      },
+      "phone": "+90 534 123 9876",
+      "orders": [
+        {
+          "order_id": 1004,
+          "product_id": 2,
+          "quantity": 1,
+          "total_price": 749.99,
+          "order_date": "2024-10-01"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Fatma Yıldız",
+      "email": "fatma.yildiz@example.com",
+      "password": "hashed_password_5",
+      "address": {
+        "street": "Kazım Karabekir Mah. 8. Sok. No: 11",
+        "city": "Gaziantep",
+        "postal_code": "27000",
+        "country": "Turkey"
+      },
+      "phone": "+90 533 456 7890",
+      "orders": []
+    },
+    {
+      "id": "6",
+      "name": "Ali Güneş",
+      "email": "ali.gunes@example.com",
+      "password": "hashed_password_6",
+      "address": {
+        "street": "Sakarya Mah. No: 32",
+        "city": "Sakarya",
+        "postal_code": "54000",
+        "country": "Turkey"
+      },
+      "phone": "+90 555 654 1234",
+      "orders": [
+        {
+          "order_id": 1005,
+          "product_id": 5,
+          "quantity": 3,
+          "total_price": 150,
+          "order_date": "2024-09-30"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Can Özdemir",
+      "email": "can.ozdemir@example.com",
+      "password": "hashed_password_7",
+      "address": {
+        "street": "Cumhuriyet Mah. No: 19",
+        "city": "Antalya",
+        "postal_code": "07000",
+        "country": "Turkey"
+      },
+      "phone": "+90 544 321 9876",
+      "orders": [
+        {
+          "order_id": 1006,
+          "product_id": 6,
+          "quantity": 1,
+          "total_price": 499.99,
+          "order_date": "2024-08-20"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1001,
+      "user_id": 1,
+      "order_date": "2024-09-10",
+      "status": "Kargoya Verildi",
+      "total_price": 1299.99,
+      "shipping_address": {
+        "street": "Atatürk Cad. No: 15",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Apple iPhone 16 Pro Max",
+          "quantity": 1,
+          "price": 1299.99
+        }
+      ],
+      "id": "c6f6"
+    },
+    {
+      "order_id": 1002,
+      "user_id": 1,
+      "order_date": "2024-09-15",
+      "status": "Teslim Edildi",
+      "total_price": 299.98,
+      "shipping_address": {
+        "street": "Atatürk Cad. No: 15",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 4,
+          "name": "Adidas Air Max 270",
+          "quantity": 2,
+          "price": 149.99
+        }
+      ],
+      "id": "6d80"
+    },
+    {
+      "order_id": 1003,
+      "user_id": 2,
+      "order_date": "2024-09-22",
+      "status": "Hazırlanıyor",
+      "total_price": 349.99,
+      "shipping_address": {
+        "street": "İstiklal Mah. 123. Sok. No: 45",
+        "city": "Ankara",
+        "postal_code": "06000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 3,
+          "name": "Sony WH-1000XM5 Headphones",
+          "quantity": 1,
+          "price": 349.99
+        },
+        {
+          "product_id": 5,
+          "name": "Adidas Ultraboost 22",
+          "quantity": 3,
+          "price": 180
+        }
+      ],
+      "id": "23ad"
+    },
+    {
+      "order_id": 1004,
+      "user_id": 4,
+      "order_date": "2024-10-01",
+      "status": "Teslim Edildi",
+      "total_price": 180,
+      "shipping_address": {
+        "street": "Kordonboyu Mah. Sahil Yolu Cad. No: 22",
+        "city": "Antalya",
+        "postal_code": "07000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 5,
+          "name": "Adidas Ultraboost 22",
+          "quantity": 1,
+          "price": 180
+        }
+      ],
+      "id": "6e88"
+    }
+  ]
+}
